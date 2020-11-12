@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'surfboards#index'
-  resources :board_app
+  root 'board_app#index'
+  resources :surfboards
 end
